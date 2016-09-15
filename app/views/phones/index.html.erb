@@ -14,7 +14,7 @@
   <tbody>
     <% @phones.each do |phone| %>
       <tr>
-        <td><%= phone.person %></td>
+        <td><%= phone.person_id %></td>
         <td><%= phone.number %></td>
         <td><%= link_to 'Show', phone %></td>
         <td><%= link_to 'Edit', edit_phone_path(phone) %></td>
